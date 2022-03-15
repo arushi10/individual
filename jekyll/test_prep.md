@@ -46,6 +46,18 @@ ADDED QUESTION: How can computer science and a knowledge of technology empower y
 ### 5.3 
 
 ### 5.4 
+* more crowdsourcing = less computing bias
+* crowdsourcing allows us to obtain shared information, share information, and participate in distributed computing
+* ex: Wikipedia - has inaccuracies corrected through self-policing community; crypto currency and associated block chain - transactions are verified at least 3 times; COVID-19 data
+* RapidAPI, Github
+
+
+CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?
+* One crowdsource idea is to calculate the carbon footprint of San Diego. This can be done by asking all Del Norte students to calculate their individual carbon footprint using a carbon calculator and compiling the data.
+
+
+What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
+* Del Norte has a diverse array of students that can be very effective for crowdsourcing. For our project detailing emergency procedures, we can talk to teachers and students about the digital features that would help them in an emergency situation. 
 
 ### 5.5 
 
