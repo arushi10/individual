@@ -31,8 +31,8 @@ Our goal this trimester with our website is to make a helpful and viable alterna
   - [Week 5](#five)
   - [Week 4](#four)
   - [Week 3](#three)
-  - [Week 2](#two)
-  - [Week 1](#one) -->
+  - [Week 2](#two) -->
+  - [Week 1](#one) 
   - [Week 0](#zero)
 
 
