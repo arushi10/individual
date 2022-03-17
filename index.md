@@ -1,6 +1,5 @@
 {% include navigation.html %}
 
-
 # Home
 
 | Week | Link to Review Ticket |
