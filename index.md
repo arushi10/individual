@@ -3,9 +3,9 @@
 # Home
 
 | Week | Link to Review Ticket |
-|-------|--------|---------|
+|--------|--------|---------|
 | Week 0 | [Week 0 Review Ticket](https://github.com/arushi10/individual/issues/1) |
-| Week 1 | [Week 1 Review Ticket]() |
+| Week 1 | [Week 1 Review Ticket](https://github.com/arushi10/individual/issues/2) |
 
 
 ### What can I do with Tech to improve mine or others' education?
