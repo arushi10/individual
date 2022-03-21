@@ -43,9 +43,39 @@ Is paper or red tape blocking digital empowerment? Are there such barriers at De
 ADDED QUESTION: How can computer science and a knowledge of technology empower you?
 * The top four companies in the stock market are Amazon, Microsoft, Alphabet (Google), and Apple. It is important to note that all of these companies are tech companies. This goes to show that studying technology, particularly computer science, is very valuable in today's day and age. 
 
-### 5.3 
+### 5.3
+Notes
+* computers have intentional and unintentional bias
+* HP face tracking feature: most likely unintentional
+* developers may not have had diverse skin colors, flawed testing
+
+
+Does the owner of the computer think this was intentional?
+* no
+
+
+If yes or no, justify you conclusion.
+* No because the developers did not test accurately.
+
+
+How do you think this happened?
+* Testing was flawed.
+
+
+Is this harmful? Was it intended to be harmful or exclude?
+* Yes, it is harmful because if the facial recognition feature malfunctions in a critical process, it could be disastrous. It was not intended to exclude.
+
+
+Should it be corrected?
+* Yes, it should be corrected to make the feature more accurate.
+
+
+What would you or should you do to produce a better outcome?
+* Test the facial recognition feature on people with different skin colors.
+
 
 ### 5.4 
+Notes
 * more crowdsourcing = less computing bias
 * crowdsourcing allows us to obtain shared information, share information, and participate in distributed computing
 * ex: Wikipedia - has inaccuracies corrected through self-policing community; crypto currency and associated block chain - transactions are verified at least 3 times; COVID-19 data
