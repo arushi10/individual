@@ -41,12 +41,12 @@ def print_menu2():
 # menu option 1
 def option1():
     print('You chose \' 1 -  swap\'')
-    call(["python", "swap.py"])
+    call(["python", "week0/swap.py"])
 
 # menu option 2
 def option2():
     print('You chose \' 2 - keypad\'')
-    call(["python", "keypad.py"])
+    call(["python", "week0/keypad.py"])
 
 # menu option 3
 def option3():
@@ -55,11 +55,11 @@ def option3():
 
 def option4():
     print('You chose \' 1 - Tree\'')
-    call(["python", "tree.py"])
+    call(["python", "week0/tree.py"])
 
 def option5():
     print('You chose \' 2 - Animation\'')
-    call(["python", "ship.py"])
+    call(["python", "week0/ship.py"])
   
 
 
