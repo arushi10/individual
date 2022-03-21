@@ -90,5 +90,48 @@ What about Del Norte crowdsourcing? Could your final project be better with crow
 * Del Norte has a diverse array of students that can be very effective for crowdsourcing. For our project detailing emergency procedures, we can talk to teachers and students about the digital features that would help them in an emergency situation. 
 
 ### 5.5 
+Notes
+* software licensing
+* patents help lawyers + Qualcomm make money
+* GPL: General Public Licensing
+* Open Source (GPL): any derivative work is free and code should be shared
+* Qualcomm wants royalty payment
+
+
+When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages.
+* license types:
+* Creative Commons Zero v1.0 Universal: waves copyright interest
+* Open Source MIT License: freely making and distributing closed source versions
+* Open Source GPL License: people can do anything with project except distributing closed source versions
+
+
+Make a license for your personal and Team project. Document license you picked and why.
+* I created a Creative Commons (GNU license) to the project
+* With this license, other people can use our code without citing it. Since our code doesn't hold any confidential information, we believed a GNU license was most appropriate
 
 ### 5.6 
+Notes
+*
+
+
+Describe PII you have seen on project in CompSci Principles.
+
+
+
+What are your feelings about PII and your exposure?
+
+
+
+Describe good and bad passwords? What is another step that is used to assist in authentication.
+
+
+
+Try to describe Symmetric and Asymmetric encryption.
+
+
+
+Provide and example of encryption we used in deployment.
+
+
+
+Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.
