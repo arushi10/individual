@@ -6,6 +6,7 @@
 |--------|--------|---------|
 | Week 0 | [Week 0 Review Ticket](https://github.com/arushi10/individual/issues/1) |
 | Week 1 | [Week 1 Review Ticket](https://github.com/arushi10/individual/issues/2) |
+| Week 2 | [Week 2 Review Ticket](https://github.com/arushi10/individual/issues/3) |
 
 
 ### What can I do with Tech to improve mine or others' education?
@@ -23,10 +24,12 @@ Technology can increase connectivity between people, so it helps students learn 
   - [Week 6](#six)
   - [Week 5](#five)
   - [Week 4](#four)
-  - [Week 3](#three)
-  - [Week 2](#two) -->
+  - [Week 3](#three) -->
+  - [Week 2](#two) 
   - [Week 1](#one) 
   - [Week 0](#zero)
+
+## Week 2 <a id="two" name="two"></a>
 
 
 ## Week 1 <a id="one" name="one"></a>
