@@ -96,6 +96,14 @@ Notes
 * GPL: General Public Licensing
 * Open Source (GPL): any derivative work is free and code should be shared
 * Qualcomm wants royalty payment
+* intellectual property (IP): work/invention that is result of creativity to which one has rights
+* copyrights protect IP
+* legal ways to use material created by someone else: Creative Commons, open source, open access
+* creative commons: people can freely share your creations without asking for permission everytime, you can specify how you want people to use your work
+* open source: people can use freely, encourages collaboration
+* open access: no restrictions
+* always cite sources
+* digital divide: unequal distribution of access to technology
 
 
 When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages.
@@ -111,7 +119,18 @@ Make a license for your personal and Team project. Document license you picked a
 
 ### 5.6 
 Notes
-*
+* Personally Identifiable Info (PII): information specific to individual, (ex: social security #, age, DOB)
+* PII can be used to steal someone's identity, bank account access, etc
+* We tell people PII unconciously; ex: search engines collect and store all data
+* authentication measures protect devices and info from unauthorized access; ex: strong factors, multifactor authentication
+* multifactor authentication: what you know, what you are (ex: fingerprint), what you have (ex: card)
+* viruses can copy themselves and gain access to systems they are not supposed to be allowed in
+* malware: intended to damage/partially take control of system; pose as legit programs, attach themselves to legit programs (ex: email)
+* virus scans can prevent virus + malware from getting into system
+* encryption: encoding data to prevent unauthorized access
+* symmetric encryption: one key
+* asymmetric encryption/public key encryption: 2 keys, public key + private key, public key encrypts (by sender), private key decrypts (by receiver), intercepted data cannot be accessed, 2 people can agree on secret key without meeting ahead of time
+* decryption: decoding data
 
 
 Describe PII you have seen on project in CompSci Principles.
