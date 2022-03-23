@@ -134,7 +134,7 @@ Notes
 
 
 Describe PII you have seen on project in CompSci Principles.
-
+* On previous projects and websites, I have published my full name. 
 
 
 What are your feelings about PII and your exposure?
