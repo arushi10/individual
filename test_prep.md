@@ -134,19 +134,19 @@ Notes
 
 
 Describe PII you have seen on project in CompSci Principles.
-* On previous projects and websites, I have published my full name. 
+* On previous projects and websites, I have published my full name. People also put links to their social media on their projects which might sacrifice their PII.
 
 
 What are your feelings about PII and your exposure?
-
+* I think PII should be kept personal. However, I don't think my PII is protected very well as I have published my date of birth and contact information on public website. 
 
 
 Describe good and bad passwords? What is another step that is used to assist in authentication.
-
+* Good passwords have a mix of letters and numbers. They also have a longer number of characters. Two-step authentication factors are also helpful in protecting people's privacy.
 
 
 Try to describe Symmetric and Asymmetric encryption.
-
+* Symmetric encryption uses one key while asymmetric encryption uses two keys - a public key and a private key. Asymmetric encryption uses public key encrypts
 
 
 Provide and example of encryption we used in deployment.
