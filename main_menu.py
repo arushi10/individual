@@ -1,61 +1,67 @@
-main_menu = [
-    ["Week O", "week0/week0_menu.py"],
-    ["Week 1", "week1/week1_menu.py"],
-]
+"""
+Introduction to Console Programming
+Writing a function to print a menu
+"""
+from subprocess import call
 
-border = "=" * 25
-banner = f"\n{border}\nPlease Select An Option\n{border}"
 
-def menu():
-    title = "Function Menu" + banner
-    menu_list = main_menu.copy()
-    buildMenu(title, menu_list)
+# Menu options as a dictionary
+menu_options = {
+    1: 'week 0',
+    2: 'week 1',
+    3: 'week 2',
+    4: 'exit',
+}
 
-def buildMenu(banner, options):
-    # header for menu
-    print(banner)
-    # build a dictionary from options
-    prompts = {0: ["Exit", None]}
-    for op in options:
-        index = len(prompts)
-        prompts[index] = op
+menu2_options = {
+    1: 'factorial',
+    2: 'math',
+    3: 'palindrome',
+    4: 'exit',
+}
 
-    # print menu or dictionary
-    for key, value in prompts.items():
-        print(key, '->', value[0])
+# Print menu options from dictionary key/value pair
+def print_menu():
+    for key in menu_options.keys():
+        print(key, '--', menu_options[key] )
+    runOptions()
+    
+# menu option 1
+def option1():
+    print('You chose \' 1 -  week 0\'')
+    call(["python", "week0/week0_menu.py"])
 
-    # get user choice
-    choice = input("Type your choice> ")
+# menu option 2
+def option2():
+    print('You chose \' 2 - week 1\'')
+    call(["python", "week1/week1_menu.py"])
 
-    # validate choice and run
-    # execute selection
-    # convert to number
-    try:
-        choice = int(choice)
-        if choice == 0:
-            # stop
-            return
+# menu option 3
+def option3():
+    print('You chose \'3 - week 2\'')
+    call(["python", "week2/week2_menu.py"])
+
+# call functions based on input choice
+def runOptions():
+    # infinite loop to accept/process user menu choice
+    while True:
         try:
-            # try as function
-            action = prompts.get(choice)[1]
-            action()
-        except TypeError:
-            try:  # try as playground style
-                exec(open(action).read())
-            except FileNotFoundError:
-                print(f"File not found!: {action}")
-            # end function try
-        # end prompts try
-    except ValueError:
-        # not a number error
-        print(f"Not a number: {choice}")
-    except UnboundLocalError:
-        # traps all other errors
-        print(f"Invalid choice: {choice}")
-    # end validation try
+            option = int(input('Enter your choice 1-4: '))
+            if option == 1:
+                option1()
+            elif option == 2:
+                option2()
+            elif option == 3:
+                option3()
+            # Exit menu
+            elif option == 4:
+                print('Exiting! Thank you! Good Bye...')
+                exit() # exit out of the (infinite) while loop
+            else:
+                print('Invalid option. Please enter a number between 1 and 4.')
+        except ValueError:
+            print('Invalid input. Please enter an integer input.')
 
-    buildMenu(banner, options)  # recursion, start menu over again
-
-
-if __name__ == "__main__":
-    menu()
+if __name__=='__main__':
+    # print_menu1()
+    print_menu()
