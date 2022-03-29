@@ -24,13 +24,20 @@ Technology can increase connectivity between people, so it helps students learn 
   - [Week 7](#seven)
   - [Week 6](#six)
   - [Week 5](#five)
-  - [Week 4](#four)
-  - [Week 3](#three) -->
+  - [Week 4](#four) -->
+  - [Week 3](#three) 
   - [Week 2](#two) 
   - [Week 1](#one) 
   - [Week 0](#zero)
 
+## Week 3 <a id="three" name="three"></a>
+
+
+
 ## Week 2 <a id="two" name="two"></a>
+
+
+Factorial with classes, math prime number function (imperative and OOP), and palindrome function
 
 
 ## Week 1 <a id="one" name="one"></a>
