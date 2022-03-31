@@ -11,7 +11,7 @@
 # a = matrix[0
 # print(a)
 
-def matrix():
+def driver():
     matrix = [ [1,2,3],[4,5,6],[7,8,9] ]
     a = matrix[0][0], matrix[0][1], matrix[0][2]
     b = matrix[1][0], matrix[1][1], matrix[1][2]
@@ -24,4 +24,4 @@ def matrix():
         print(str(i).replace('[', '').replace('[', '').replace(']', ''))
 
 if __name__ == "__main__":
-    matrix()
+    driver()
