@@ -47,7 +47,7 @@ def recur_factorial(n):
 ## hack 2b: def while_loop(0)
 ## hack 2c : def recursive_loop(0)
 
-def tester():  
+def driver():
   print("For loop")
   for_loop()
   print("While loop")
@@ -55,4 +55,5 @@ def tester():
   print("Recursive loop")
   recursive_loop(0)  # requires initial index to start recursion
 
-tester()
+if __name__ == "__main__":
+    driver()

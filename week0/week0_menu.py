@@ -3,6 +3,7 @@ Introduction to Console Programming
 Writing a function to print a menu
 """
 from subprocess import call
+from week0 import keypad, ship, swap, tree
 
 # Menu options in print statement
 # def print_menu1():
@@ -28,7 +29,7 @@ menu2_options = {
 }
 
 # Print menu options from dictionary key/value pair
-def print_menu():
+def driver():
     for key in menu_options.keys():
         print(key, '--', menu_options[key] )
     runOptions()
@@ -41,12 +42,12 @@ def print_menu2():
 # menu option 1
 def option1():
     print('You chose \' 1 -  swap\'')
-    call(["python", "week0/swap.py"])
+    call(["python", swap.driver])
 
 # menu option 2
 def option2():
     print('You chose \' 2 - keypad\'')
-    call(["python", "week0/keypad.py"])
+    call(["python", keypad.driver])
 
 # menu option 3
 def option3():
@@ -55,11 +56,11 @@ def option3():
 
 def option4():
     print('You chose \' 1 - Tree\'')
-    call(["python", "week0/tree.py"])
+    call(["python", tree.driver])
 
 def option5():
     print('You chose \' 2 - Animation\'')
-    call(["python", "week0/ship.py"])
+    call(["python", ship.driver])
   
 
 
@@ -104,4 +105,4 @@ def run2Options():
 
 if __name__=='__main__':
     # print_menu1()
-    print_menu()
+    driver()

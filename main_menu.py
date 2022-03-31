@@ -3,9 +3,9 @@ Introduction to Console Programming
 Writing a function to print a menu
 """
 from subprocess import call
-from week0 import keypad, ship, swap, tree
-from week1 import fibonacci, infoDB_lists, infoDB_loops
-from week2 import factorial, math, palindrome
+from week0 import week0_menu
+from week1 import week1_menu
+from week2 import week2_menu
 
 # Menu options as a dictionary
 menu_options = {
@@ -31,17 +31,17 @@ def print_menu():
 # menu option 1
 def option1():
     print('You chose \' 1 -  week 0\'')
-    call(["python", "week0/week0_menu.py"])
+    call(["python", week0_menu.driver])
 
 # menu option 2
 def option2():
     print('You chose \' 2 - week 1\'')
-    call(["python", "week1/week1_menu.py"])
+    call(["python", week1_menu.driver])
 
 # menu option 3
 def option3():
     print('You chose \'3 - week 2\'')
-    call(["python", "week2/week2_menu.py"])
+    call(["python", week2_menu.driver])
 
 # call functions based on input choice
 def runOptions():

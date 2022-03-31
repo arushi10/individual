@@ -12,6 +12,9 @@ class Factorial:
             number = number * i
           return number
 
+def driver():
+    factorial_of = Factorial() # object instantiation and run __init__ method
+    print(factorial_of(number)) # object running __call__ method
 
-factorial_of = Factorial() # object instantiation and run __init__ method
-print(factorial_of(number)) # object running __call__ method
+if __name__ == "__main__":
+    driver()

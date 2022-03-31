@@ -16,6 +16,10 @@ ArushiDB.append({
 x = ArushiDB[0]["Owns_Devices"][3] # Gives "laptop"
 y = ArushiDB[0].get("Owns_Devices")[3]
 
-print(x)
-print(y)
-print (ArushiDB)
+def driver():
+    print(x)
+    print(y)
+    print (ArushiDB)
+
+if __name__ == "__main__":
+    driver()

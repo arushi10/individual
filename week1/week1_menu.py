@@ -3,7 +3,7 @@ Introduction to Console Programming
 Writing a function to print a menu
 """
 from subprocess import call
-
+from week1 import fibonacci, infoDB_lists, infoDB_loops
 
 # Menu options as a dictionary
 menu_options = {
@@ -15,7 +15,7 @@ menu_options = {
 
 
 # Print menu options from dictionary key/value pair
-def print_menu():
+def driver():
     for key in menu_options.keys():
         print(key, '--', menu_options[key] )
     runOptions()
@@ -23,17 +23,17 @@ def print_menu():
 # menu option 1
 def option1():
     print('You chose \' 1 -  InfoDB Lists\'')
-    call(["python", "week1/infoDB_lists.py"])
+    call(["python", infoDB_lists.driver])
 
 # menu option 2
 def option2():
     print('You chose \' 2 - InfoDB Loops\'')
-    call(["python", "week1/infoDB_loops.py"])
+    call(["python", infoDB_loops.driver])
 
 # menu option 3
 def option3():
     print('You chose \'3 - Fibonacci\'')
-    call(["python", "week1/fibonacci.py"])
+    call(["python", fibonacci.driver])
   
 
 
@@ -60,4 +60,4 @@ def runOptions():
 
 if __name__=='__main__':
     # print_menu1()
-    print_menu()
+    driver()

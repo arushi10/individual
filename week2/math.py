@@ -20,7 +20,7 @@ def primes():
   print("Imperative results:")  
   findprimes(min, max + 1)
 
-primes()
+
 
 # Function to find prime numbers in OOP
 
@@ -43,6 +43,10 @@ class Primes:
               if (count == 0 and Number != 1):
                   print(" %d" % Number, end='  ')
 
-primes_of = Primes() # object instantiation and run __init__ method
-print(primes_of(min, max)) # object running __call__ method
+def driver():
+    primes()
+    primes_of = Primes() # object instantiation and run __init__ method
+    print(primes_of(min, max)) # object running __call__ method
 
+if __name__ == "__main__":
+    driver()

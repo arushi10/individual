@@ -3,9 +3,11 @@ Introduction to Console Programming
 Writing a function to print a menu
 """
 from subprocess import call
-
+from week2 import factorial, math, palindrome
 
 # Menu options as a dictionary
+
+
 menu_options = {
     1: 'Factorial',
     2: 'Math',
@@ -15,7 +17,7 @@ menu_options = {
 
 
 # Print menu options from dictionary key/value pair
-def print_menu():
+def driver():
     for key in menu_options.keys():
         print(key, '--', menu_options[key] )
     runOptions()
@@ -23,17 +25,17 @@ def print_menu():
 # menu option 1
 def option1():
     print('You chose \' 1 -  Factorial\'')
-    call(["python", "week2/factorial.py"])
+    call(["python", factorial.driver])
 
 # menu option 2
 def option2():
     print('You chose \' 2 - Math\'')
-    call(["python", "week2/math.py"])
+    call(["python", math.driver])
 
 # menu option 3
 def option3():
     print('You chose \'3 - Palindrome\'')
-    call(["python", "week2/palindrome.py"])
+    call(["python", palindrome.driver])
   
 
 
@@ -60,4 +62,4 @@ def runOptions():
 
 if __name__=='__main__':
     # print_menu1()
-    print_menu()
+    driver()
