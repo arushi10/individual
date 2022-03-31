@@ -25,15 +25,15 @@ def swap3(age1, age2):
         print ("Swap 3 Result:")
         return(age1, age2)
 
-# tests
-# print(16,20)
-# print(9.134,4)
-# print(swap1(16, 20))
-# print(swap1(9.134, 4))
-# print(swap2(16,20))
-# print(swap2(9.134, 4))
-# print(swap3(16,20))
-# print(swap3(9.134, 4))
+def driver():
+    swap1(16, 20)
+    swap1(9.134, 4)
+    swap2(16,20)
+    swap2(9.134, 4)
+    swap3(16,20)
+    swap3(9.134, 4)
+
+
 
 if __name__ == "__main__":
-    swap1(age1, age2)
+    driver()

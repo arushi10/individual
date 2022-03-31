@@ -30,7 +30,7 @@ def ship_print(position):
 
 
 # ship function, iterface into this file
-def ship():
+def driver():
     # only need to print ocean once
     ocean_print()
 
@@ -45,4 +45,4 @@ def ship():
         time.sleep(.1)
 
 if __name__ == "__main__":
-    ship()
+    driver()

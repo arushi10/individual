@@ -3,7 +3,9 @@ Introduction to Console Programming
 Writing a function to print a menu
 """
 from subprocess import call
-
+from week0 import keypad, ship, swap, tree
+from week1 import fibonacci, infoDB_lists, infoDB_loops
+from week2 import factorial, math, palindrome
 
 # Menu options as a dictionary
 menu_options = {

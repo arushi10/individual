@@ -12,6 +12,11 @@ def trunk(n):
       print(' ', end =' ')
     print('* *')
   # Input and Function Call
-row = int(input('Enter number of rows: '))
-christmastree(row)
-trunk (row)
+
+def driver():
+    row = int(input('Enter number of rows: '))
+    christmastree(row)
+    trunk (row)
+
+if __name__ == "__main__":
+    driver()
