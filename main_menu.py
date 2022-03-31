@@ -6,6 +6,7 @@ from subprocess import call
 from week0 import week0_menu
 from week1 import week1_menu
 from week2 import week2_menu
+import week2
 
 # Menu options as a dictionary
 menu_options = {
@@ -23,25 +24,26 @@ menu2_options = {
 }
 
 # Print menu options from dictionary key/value pair
-def driver():
+def print_menu() -> object:
     for key in menu_options.keys():
         print(key, '--', menu_options[key] )
     runOptions()
+    return object
     
 # menu option 1
 def option1():
     print('You chose \' 1 -  week 0\'')
-    call(["python", week0_menu.driver])
+    call(["python", week0_menu.print_menu()])
 
 # menu option 2
 def option2():
     print('You chose \' 2 - week 1\'')
-    call(["python", week1_menu.driver])
+    call(["python", week1_menu.print_menu()])
 
 # menu option 3
 def option3():
     print('You chose \'3 - week 2\'')
-    call(["python", week2_menu.driver])
+    call(["python", week2_menu.print_menu()])
 
 # call functions based on input choice
 def runOptions():
@@ -65,5 +67,4 @@ def runOptions():
             print('Invalid input. Please enter an integer input.')
 
 if __name__=='__main__':
-    # print_menu1()
-    driver()
+    print_menu()

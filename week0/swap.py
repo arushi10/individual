@@ -1,5 +1,5 @@
-age1 = int(input('Enter your age: '))
-age2 = int(input('Enter another age: '))
+#age1 = int(input('Enter your age: '))
+#age2 = int(input('Enter another age: '))
 
 # swaps numbers regardless of value
 def swap1(age1,age2):
@@ -26,6 +26,7 @@ def swap3(age1, age2):
         return(age1, age2)
 
 def driver():
+
     swap1(16, 20)
     swap1(9.134, 4)
     swap2(16,20)

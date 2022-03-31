@@ -29,7 +29,7 @@ menu2_options = {
 }
 
 # Print menu options from dictionary key/value pair
-def driver():
+def print_menu():
     for key in menu_options.keys():
         print(key, '--', menu_options[key] )
     runOptions()
@@ -42,12 +42,12 @@ def print_menu2():
 # menu option 1
 def option1():
     print('You chose \' 1 -  swap\'')
-    call(["python", swap.driver])
+    call(["python", swap.driver()])
 
 # menu option 2
 def option2():
     print('You chose \' 2 - keypad\'')
-    call(["python", keypad.driver])
+    call(["python", keypad.driver()])
 
 # menu option 3
 def option3():
@@ -56,11 +56,11 @@ def option3():
 
 def option4():
     print('You chose \' 1 - Tree\'')
-    call(["python", tree.driver])
+    call(["python", tree.driver()])
 
 def option5():
     print('You chose \' 2 - Animation\'')
-    call(["python", ship.driver])
+    call(["python", ship.driver()])
   
 
 
@@ -104,5 +104,4 @@ def run2Options():
             print('Invalid input. Please enter an integer input.')
 
 if __name__=='__main__':
-    # print_menu1()
-    driver()
+    print_menu()

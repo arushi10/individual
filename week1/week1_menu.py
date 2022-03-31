@@ -23,17 +23,17 @@ def driver():
 # menu option 1
 def option1():
     print('You chose \' 1 -  InfoDB Lists\'')
-    call(["python", infoDB_lists.driver])
+    call(["python", infoDB_lists.driver()])
 
 # menu option 2
 def option2():
     print('You chose \' 2 - InfoDB Loops\'')
-    call(["python", infoDB_loops.driver])
+    call(["python", infoDB_loops.driver()])
 
 # menu option 3
 def option3():
     print('You chose \'3 - Fibonacci\'')
-    call(["python", fibonacci.driver])
+    call(["python", fibonacci.driver()])
   
 
 
@@ -59,5 +59,4 @@ def runOptions():
             print('Invalid input. Please enter an integer input.')
 
 if __name__=='__main__':
-    # print_menu1()
-    driver()
+    print_menu()

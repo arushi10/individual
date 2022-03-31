@@ -17,7 +17,7 @@ menu_options = {
 
 
 # Print menu options from dictionary key/value pair
-def driver():
+def print_menu():
     for key in menu_options.keys():
         print(key, '--', menu_options[key] )
     runOptions()
@@ -25,17 +25,17 @@ def driver():
 # menu option 1
 def option1():
     print('You chose \' 1 -  Factorial\'')
-    call(["python", factorial.driver])
+    call(["python", factorial.driver()])
 
 # menu option 2
 def option2():
     print('You chose \' 2 - Math\'')
-    call(["python", math.driver])
+    call(["python", math.driver()])
 
 # menu option 3
 def option3():
     print('You chose \'3 - Palindrome\'')
-    call(["python", palindrome.driver])
+    call(["python", palindrome.driver()])
   
 
 
@@ -61,5 +61,4 @@ def runOptions():
             print('Invalid input. Please enter an integer input.')
 
 if __name__=='__main__':
-    # print_menu1()
-    driver()
+    print_menu()

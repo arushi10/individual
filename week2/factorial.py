@@ -1,4 +1,4 @@
-number = int(input("What number?"))
+
 
 class Factorial:
     def __init__(self):
@@ -13,6 +13,7 @@ class Factorial:
           return number
 
 def driver():
+    number = int(input("What number?"))
     factorial_of = Factorial() # object instantiation and run __init__ method
     print(factorial_of(number)) # object running __call__ method
 
