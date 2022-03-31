@@ -23,7 +23,7 @@ menu2_options = {
 }
 
 # Print menu options from dictionary key/value pair
-def print_menu():
+def driver():
     for key in menu_options.keys():
         print(key, '--', menu_options[key] )
     runOptions()
@@ -66,4 +66,4 @@ def runOptions():
 
 if __name__=='__main__':
     # print_menu1()
-    print_menu()
+    driver()
