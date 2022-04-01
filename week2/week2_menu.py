@@ -25,17 +25,17 @@ def print_menu():
 # menu option 1
 def option1():
     print('You chose \' 1 -  Factorial\'')
-    call(["python", factorial.driver()])
+    factorial.driver()
 
 # menu option 2
 def option2():
     print('You chose \' 2 - Math\'')
-    call(["python", math.driver()])
+    math.driver()
 
 # menu option 3
 def option3():
     print('You chose \'3 - Palindrome\'')
-    call(["python", palindrome.driver()])
+    palindrome.driver
   
 
 

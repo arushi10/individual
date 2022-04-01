@@ -28,22 +28,22 @@ def print_menu() -> object:
     for key in menu_options.keys():
         print(key, '--', menu_options[key] )
     runOptions()
-    return object
+
     
 # menu option 1
 def option1():
     print('You chose \' 1 -  week 0\'')
-    call(["python", week0_menu.print_menu()])
+    week0_menu.print_menu()
 
 # menu option 2
 def option2():
     print('You chose \' 2 - week 1\'')
-    call(["python", week1_menu.print_menu()])
+    week1_menu.print_menu()
 
 # menu option 3
 def option3():
     print('You chose \'3 - week 2\'')
-    call(["python", week2_menu.print_menu()])
+    week2_menu.print_menu()
 
 # call functions based on input choice
 def runOptions():

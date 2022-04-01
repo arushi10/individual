@@ -42,12 +42,12 @@ def print_menu2():
 # menu option 1
 def option1():
     print('You chose \' 1 -  swap\'')
-    call(["python", swap.driver()])
+    swap.driver()
 
 # menu option 2
 def option2():
     print('You chose \' 2 - keypad\'')
-    call(["python", keypad.driver()])
+    keypad.driver()
 
 # menu option 3
 def option3():
@@ -56,11 +56,12 @@ def option3():
 
 def option4():
     print('You chose \' 1 - Tree\'')
-    call(["python", tree.driver()])
+    tree.driver()
 
 def option5():
     print('You chose \' 2 - Animation\'')
-    call(["python", ship.driver()])
+    ship.driver()
+    ship.driver()
   
 
 
