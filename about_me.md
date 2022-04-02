@@ -1,7 +1,7 @@
 {% include navigation.html %}
 
 # About Me
-![image](https://user-images.githubusercontent.com/72752116/161373613-6bf3fc24-871f-49cb-89fe-a965ebec9203.png)
+![161373613-6bf3fc24-871f-49cb-89fe-a965ebec9203](https://user-images.githubusercontent.com/72752116/161373666-b58a068e-da47-401f-b90f-38aa91056b7e.jpg)
 
 Name: Arushi B.
 
