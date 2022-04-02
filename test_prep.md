@@ -54,6 +54,10 @@ ADDED QUESTION: How can computer science and a knowledge of technology empower y
 * The top four companies in the stock market are Amazon, Microsoft, Alphabet (Google), and Apple. It is important to note that all of these companies are tech companies. This goes to show that studying technology, particularly computer science, is very valuable in today's day and age. 
 
 ### 5.3
+
+![image](https://user-images.githubusercontent.com/72752116/161374339-eda4fe67-89d7-41a4-9794-dafa74fa656d.png)
+
+
 Notes
 * computers have intentional and unintentional bias
 * HP face tracking feature: most likely unintentional
@@ -85,6 +89,10 @@ What would you or should you do to produce a better outcome?
 
 
 ### 5.4 
+
+![image](https://user-images.githubusercontent.com/72752116/161374366-9c5d4b0e-46dd-4a63-945d-db703f5e8153.png)
+
+
 Notes
 * more crowdsourcing = less computing bias
 * crowdsourcing allows us to obtain shared information, share information, and participate in distributed computing
@@ -100,6 +108,10 @@ What about Del Norte crowdsourcing? Could your final project be better with crow
 * Del Norte has a diverse array of students that can be very effective for crowdsourcing. For our project detailing emergency procedures, we can talk to teachers and students about the digital features that would help them in an emergency situation. 
 
 ### 5.5 
+
+![image](https://user-images.githubusercontent.com/72752116/161374404-2bf73a55-1a41-42a1-81eb-3008ef8ef315.png)
+
+
 Notes
 * software licensing
 * patents help lawyers + Qualcomm make money
@@ -128,6 +140,10 @@ Make a license for your personal and Team project. Document license you picked a
 * With this license, other people can use our code without citing it. Since our code doesn't hold any confidential information, we believed a GNU license was most appropriate
 
 ### 5.6 
+
+![image](https://user-images.githubusercontent.com/72752116/161374436-07565ef7-14a8-478e-b38d-5b53dbbf57da.png)
+
+
 Notes
 * Personally Identifiable Info (PII): information specific to individual, (ex: social security #, age, DOB)
 * PII can be used to steal someone's identity, bank account access, etc
