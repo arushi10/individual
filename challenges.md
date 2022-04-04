@@ -1,8 +1,8 @@
 {% include navigation.html %}
 
-# TPTs and TTs
+# Weekly Challenges
 
-## Week 0
+## Replit Embed
 <!-- [Link to Replit](https://replit.com/@arushi10/individual) -->
 
 <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@arushi10/individual?lite=true"></iframe>
