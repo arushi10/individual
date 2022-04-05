@@ -23,15 +23,18 @@ Technology can increase connectivity between people, so it helps students learn 
   - [Week 8](#eight)
   - [Week 7](#seven)
   - [Week 6](#six)
-  - [Week 5](#five)
-  - [Week 4](#four) -->
+  - [Week 5](#five) -->
+  - [Week 4](#four) 
   - [Week 3](#three) 
   - [Week 2](#two) 
   - [Week 1](#one) 
   - [Week 0](#zero)
 
-## Week 3 <a id="three" name="three"></a>
+## Week 4 <a id="four" name="four"></a>
 
+
+## Week 3 <a id="three" name="three"></a>
+crossover, algorithmic final video
 
 
 ## Week 2 <a id="two" name="two"></a>
