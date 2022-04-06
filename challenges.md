@@ -20,3 +20,14 @@
 * Class is used to construct object
 * init() - object constructor
 * call() - default object method
+* app = Flask(__name__)
+* app is a variable with data type object
+* login_manager = LoginManager(): LoginManager object
+* from flask_login import UserMixin
+  
+  class Users(UserMixin, db.Model): 
+* inheritance; inheriting 2 classes
+* is_anonymous: guest user
+* userID, account number: primary key
+* SHA 256: password encryption
+* Werkzeug is included in Flask
