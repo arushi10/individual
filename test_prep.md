@@ -20,6 +20,19 @@ Score: 46/50
 | 38 | B | C | Statement II is correct because the repository of stored metadata includes time, so information about the time of calls can be analyzed to make predictions about future calls. Statement III is correct because the metadata stores the phone numbers of the two parties of a call. Given one phone number, the metadata can be processed to provide all phone numbers that were called by or placed to that person. |
 
 
+### 04/21 Finals-Quiz2
+
+
+Score: 49/50
+
+
+### Finals-Quiz2 Test Corrections
+
+| Question | Selected Answer | Correct Answer | Explanation|
+| :---: | :---: | :---: | :---: | 
+| 22 | A | B | IPv6 allows for a greater number of IP addresses than IPv4 does, which allows more devices to be connected. |
+
+
 ## Week 0
 
 ### 5.1 
