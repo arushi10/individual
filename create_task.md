@@ -2,75 +2,21 @@
 
 # Create Task
 
-[Link to Video](https://drive.google.com/file/d/1Q0BaE9bdI0uU5melWicJHrujReS3nP_H/view)
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@arushi10/Arushis-AP-CSP-Create-Task#main.py?lite=true"></iframe>
+
+[Link to Code](https://drive.google.com/file/d/1nzxtPJnVvAs4oOPUOV3mm3-g2a4zNhsm/view?usp=sharing)
+
+[Link to Video](https://drive.google.com/file/d/1GLUW4IaOWueCX3RTE2U9hgKaE61j77P0/view?usp=sharing)
 
 
-3. a) The purpose of the program is to provide a easy-to-use calculator system that performs math functions of varying difficulty. The calculator is for students who would like to solve math problems potentially involving fairly complex functions but either do not have access to or do not know how to correctly use a graphing calculator. The program takes an integer input from the user, which serves as their menu selection. The program then prompts them to input the necessary values for the math function that they selected. The input is the text that the user inputs in the menu and math fucntions. The output is routing the user to the correct menu selection as well as displaying the correct answer for the math functions.
-
-3. b) 
+3. a) The purpose of the program is to provide an easy-to-use calculator system that performs math functions of varying difficulty. The calculator is for students who would like to solve math problems involving fairly complex functions but either do not have access to or do not know how to correctly use a graphing calculator. The program takes an input from the user, which serves as their menu selection. If the user enters a non-integer or a number that is not between 0 and 3 inclusive, the program will catch the error and notify the user. Based on their selection, the program calls the necessary procedure. I used drivers to simplify the names of the procedures called. All of the math functions can be called by the driver() procedure, which is different in each math file. The program then prompts the user to input the necessary values for the math function that they selected. The input is the text that the user types in the menu and for the math functions. The output is displaying the prompts for the menu option that the user selected (hypotenuse, derivative, or distance) as well as printing the correct answer for the math functions.
 
 
-# menu options as a dictionary
-menu_options = {
-    1: 'Find Hypotenuse Length',
-    2: 'Find the Derivative',
-    3: 'Find the Distance',
-    4: 'exit',
-}
+3. b) The name of the list is main_menu. The list contains the options for the menu. This includes the displayed text paired with the procedure for each math function. The variable menu_list returns a shallow copy of the list, which stores the copy of the original object and points the references to the objects. In other words, the shallow copy does not create a copy of the nested objects, instead it just copies the reference of nested objects. The build menu then uses the variable menu_list, which is a shallow copy of the main_menu list, as a parameter. Using a for loop that iterates through every row in menu_list, I built a dictionary from menu_list that makes it easier to print the menu and call the correct procedure based on the user’s menu selection. The list allows each menu item string to be printed dynamically instead of having to print constant values. Furthermore, to print the list, there is only one print statement and a for loop. If there was no list for the menu, each row in the menu dictionary would have to be printed separately, resulting in more lines of code and making it more difficult to add/remove items from the list. The list makes the algorithm more scalable and reusable.
 
 
-# print menu options from dictionary key/value pair
-def print_menu() -> object:
-    for key in menu_options.keys():
-        print(key, '--', menu_options[key] )
-    runOptions()
-
-
-The name of the dictionary is called menu_options. The dictionary contains the options for the menu. The list allows for the organization of menu options and the print_menu() function to run.
-
-
-3. c)
-
-
-# call procedures based on user input
-def runOptions():
-  # setting while loop condition to be true
-  n = 0
-  # while loop to accept/process user menu choice
-  while (n == 0):
-    try:
-      option = int(input('Enter your choice 1-4: '))
-      if option == 1:
-        option1()
-      elif option == 2:
-        option2()
-      elif option == 3:
-        option3()
-      elif option == 4:
-        # setting while loop condition to be false
-        n = 1
-      else:
-        # reprompt user if input is not an integer between 1 and 4
-        print('Invalid option. Please enter a number between 1 and 4.')
-    except ValueError:
-      # reprompt user if input is not an integer
-      print('Invalid input. Please enter an integer input.')
-      
-      
-# print menu options from dictionary key/value pair
-def print_menu() -> object:
-    for key in menu_options.keys():
-        print(key, '--', menu_options[key] )
-    runOptions()    
+3. c) The name of the procedure is buildMenu(). It returns text printed in the terminal; therefore, the return type is none. The parameters for the procedure are title and menu_list. Title is the defined variable “title” that prints the title and menu banner. The second parameter, menu_list, is a shallow copy of the main_menu list. Once called, the algorithm goes through a sequence of events. First, the procedure prints the menu banner. Second, the procedure builds a dictionary from menu_list using an iterative for loop. Third, the menu, which is in the form of a dictionary, is printed using a for loop that iterates through key-value pairs in the dictionary. Fourth, the procedure prompts the user for an input. If the user types something other than an integer, the try-except urges them to enter an integer input. The while loop ensures that the procedure does not progress until the user enters an integer input. Fifth, the algorithm uses selection to produce specific outcomes based on the user’s input. If the user enters 0, the buildMenu() procedure returns nothing. If the user inputs an integer that is less than 0 or greater than 3, the algorithm prompts them to enter a different integer that is in the correct range. Otherwise, if the user enters an integer between 0 and 3 inclusive, buildMenu() returns the value of the item with the specified key using the Python get() function. Lastly, the buildMenu() procedure calls itself (recursion) to ensure that the menu keeps prompting the user until they choose to exit.    
  
 
-The procedure displays the menu options in a loop. The procedure routes the user to the correct math function based on their selection. It reprompts users if they enter an invalid menu option using a try-except.
+3. d) The buildMenu() procedure is called in the menu() procedure. The parameters passed are title and menu_list. Within the build_Menu() procedure, the get() procedure which returns the value of the item with the specified key, takes in the argument choice. Choice is the user’s menu selection. When the program is initially run, the menu() procedure is called. The menu() procedure calls the buildMenu() procedure passing in the arguments title and menu_list. This first call prints the menu. Following the first call, the buildMenu() procedure is called recursively, and every recursive call has a different input from the user. In the video, the user inputted the values 1, 2, 3, a, and 5 in that order. Each of these arguments, when passed in the get() procedure as the choice parameter, led to a unique math function, displayed an error message, or stopped the menu. For example, the argument “2” resulted in the user being prompted to enter an expression to derive. The argument “a” led to a ValueError, and printed the message “Invalid input. Please enter an integer input.”
 
-
-Initially, n is set to 0. The while loop parameter is n=0, so the while loop does not terminate. The if-else statements call the correct Python file. The procedure also includes the try-except.
-
-
-3. d)
-
-
-The procedure returns different different outputs based on the user's menu selection. The first call tests hypotenuse, which returns the value of the hypotenuse. The second call tests the derivative, which returns the derivative.
