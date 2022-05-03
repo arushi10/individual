@@ -8,6 +8,9 @@
 | Week 1 | [Week 1 Review Ticket](https://github.com/arushi10/individual/issues/2) |
 | Week 2 | [Week 2 Review Ticket](https://github.com/arushi10/individual/issues/3) |
 | Week 3 | [Week 3 Review Ticket](https://github.com/arushi10/individual/issues/4) |
+| Week 4 | [Week 4 Review Ticket](https://github.com/arushi10/individual/issues/6) |
+| Week 5 | [Week 5 Review Ticket](https://github.com/arushi10/individual/issues/8) |
+| Week 6 | [Week 6 Review Ticket](https://github.com/arushi10/individual/issues/9) |
 
 
 ### What can I do with Tech to improve mine or others' education?
@@ -21,20 +24,37 @@ Technology can increase connectivity between people, so it helps students learn 
   - [Week 10](#ten)
   - [Week 9](#nine)
   - [Week 8](#eight)
-  - [Week 7](#seven)
+  - [Week 7](#seven) -->
   - [Week 6](#six)
-  - [Week 5](#five) -->
+  - [Week 5](#five) 
   - [Week 4](#four) 
   - [Week 3](#three) 
   - [Week 2](#two) 
   - [Week 1](#one) 
   - [Week 0](#zero)
 
+## Week 6 <a id="six" name="six"></a>
+
+
+Finals-Quiz3 and Create Task
+
+
+## Week 5 <a id="five" name="five"></a>
+
+
+Finals-Quiz1 and Finals-Quiz2
+
+
 ## Week 4 <a id="four" name="four"></a>
 
 
+Login
+
+
 ## Week 3 <a id="three" name="three"></a>
-crossover, algorithmic final video
+
+
+Crossover, algorithmic final video
 
 
 ## Week 2 <a id="two" name="two"></a>
