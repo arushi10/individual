@@ -48,8 +48,7 @@ Score: 41/50
 | 31 | D | B | Subtracting num1 from num2 will give the difference between the two numbers. Taking the absolute value of the difference will give the distance as a positive number. |
 | 39 | A | B | The total number of registered users appears to be increasing by about 0.5 million each year, so in year 12, the number of users can be approximated at 31.2 million (30.2 + 0.5 + 0.5). |
 | 41 | A | D | In public cryptography, a message is encrypted with a recipient’s public key and decrypted with the recipient’s private key. |
-| 44 | C | D | The procedures square and cube are each used to determine a power of n. A generalization of this procedure
-is Power, open parenthesis, n comma m, close parenthesis, which calculates n raised to the mpower. |
+| 44 | C | D | The procedures square and cube are each used to determine a power of n. A generalization of this procedure is Power, open parenthesis, n comma m, close parenthesis, which calculates n raised to the mpower. |
 | 46 | A | B | This is an example of symmetric encryption because the secret key is used for both encryption and decryption of messages. |
 
 
