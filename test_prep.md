@@ -33,6 +33,22 @@ Score: 49/50
 | 22 | A | B | IPv6 allows for a greater number of IP addresses than IPv4 does, which allows more devices to be connected. |
 
 
+
+### Finals-Quiz3 Test Corrections
+
+
+Score: 41/50
+
+
+| Question | Selected Answer | Correct Answer | Explanation|
+| :---: | :---: | :---: | :---: | 
+| 1 | A | B | The number of programming statements in a program does not affect its ability to process data sets. |
+| 14 | D | C | Using 6-bit binary sequences allows for 26 or 64 different items to be identified. Using 7-bit binary sequences allows for 27 or 128 different items to be identified. Thus there are two times as many items that can be uniquely identified. |
+| 22 | A | B | IPv6 allows for a greater number of IP addresses than IPv4 does, which allows more devices to be connected. |
+| 32 | D | C | Initial count variable has to be outside the for loop. |
+| 38 | B | C | Statement II is correct because the repository of stored metadata includes time, so information about the time of calls can be analyzed to make predictions about future calls. Statement III is correct because the metadata stores the phone numbers of the two parties of a call. Given one phone number, the metadata can be processed to provide all phone numbers that were called by or placed to that person. |
+
+
 ## Week 0
 
 ### 5.1 
