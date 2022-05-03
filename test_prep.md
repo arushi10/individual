@@ -39,14 +39,18 @@ Score: 49/50
 
 Score: 41/50
 
-
 | Question | Selected Answer | Correct Answer | Explanation|
 | :---: | :---: | :---: | :---: | 
-| 1 | A | B | The number of programming statements in a program does not affect its ability to process data sets. |
-| 14 | D | C | Using 6-bit binary sequences allows for 26 or 64 different items to be identified. Using 7-bit binary sequences allows for 27 or 128 different items to be identified. Thus there are two times as many items that can be uniquely identified. |
-| 22 | A | B | IPv6 allows for a greater number of IP addresses than IPv4 does, which allows more devices to be connected. |
-| 32 | D | C | Initial count variable has to be outside the for loop. |
-| 38 | B | C | Statement II is correct because the repository of stored metadata includes time, so information about the time of calls can be analyzed to make predictions about future calls. Statement III is correct because the metadata stores the phone numbers of the two parties of a call. Given one phone number, the metadata can be processed to provide all phone numbers that were called by or placed to that person. |
+| 3 | D | B | Algorithm I does not work correctly. In algorithm I, if two people are tied for the earliest birthday, they both sit down when they are eventually paired. Algorithm II works correctly. Because algorithm II allows both people to remain standing when there is a tie, a person with the earliest birthday is not eliminated. Algorithm II continues until all remaining people have the same birthday, which is the earliest birthday. Algorithm III does not work correctly. Algorithm III chooses the person(s) with the earliest day, disregarding the month. For example, algorithm III will incorrectly determine that a person born on February 1 has an earlier birthday than a person born on January 5. |
+| 12 | B | A | Creative Commons licensing allows copyright owners to specify the ways in which their works can be used or distributed. This allows individuals to access or modify these works without the risk of violating copyright laws. |
+| 17 | B, C | C, D | The procedure returns the first number it encounters that is less than the first number in the list. For the list open bracket, 40, 30, 20, 10, close bracket, the procedure returns 3 0, which is not the least value in the list. |
+| 30 | B | D | The Internet is the global system of interconnected computer networks that uses protocols to connect devices worldwide. The World Wide Web is an information system (of pages, programs, and files) that is accessible over the Internet. |
+| 31 | D | B | Subtracting num1 from num2 will give the difference between the two numbers. Taking the absolute value of the difference will give the distance as a positive number. |
+| 39 | A | B | The total number of registered users appears to be increasing by about 0.5 million each year, so in year 12, the number of users can be approximated at 31.2 million (30.2 + 0.5 + 0.5). |
+| 41 | A | D | In public cryptography, a message is encrypted with a recipient’s public key and decrypted with the recipient’s private key. |
+| 44 | C | D | The procedures square and cube are each used to determine a power of n. A generalization of this procedure
+is Power, open parenthesis, n comma m, close parenthesis, which calculates n raised to the mpower. |
+| 46 | A | B | This is an example of symmetric encryption because the secret key is used for both encryption and decryption of messages. |
 
 
 ## Week 0
